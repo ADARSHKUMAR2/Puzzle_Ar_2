@@ -19,7 +19,7 @@ b75fdd29c3f372c6b79e9b343a53e3d1 Assembly-CSharp.dll:Lean.Touch.LeanFingerDown
 a9ceaad7d51aada88335b5bf9c0e71a4 Assembly-CSharp.dll:Vuforia.ReconstructionBehaviour
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Vuforia.TurnOffBehaviour
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Vuforia.GLErrorHandler
-808ae146f27ad34c0df1a312e8a1a3c8 Assembly-CSharp.dll:.VbScript
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.VbScript
 0db0b1891009e25edf89e982b317ed70 Assembly-CSharp.dll:Lean.Touch.LeanFingerLine
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Vuforia.ComponentFactoryStarterBehaviour
 43086202e38c7e5578e3e9c98ce5148c Assembly-CSharp.dll:Vuforia.PropBehaviour

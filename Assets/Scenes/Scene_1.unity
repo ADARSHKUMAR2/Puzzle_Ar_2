@@ -341,7 +341,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400010, guid: 990b5d7296901ed409f8d81335fe3305, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 400010, guid: 990b5d7296901ed409f8d81335fe3305, type: 3}
       propertyPath: m_LocalScale.x
@@ -498,6 +498,60 @@ Rigidbody:
 Transform:
   m_PrefabParentObject: {fileID: 400010, guid: 990b5d7296901ed409f8d81335fe3305, type: 3}
   m_PrefabInternal: {fileID: 151344137}
+--- !u!1 &200928444
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 200928445}
+  - component: {fileID: 200928446}
+  - component: {fileID: 200928447}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &200928445
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 200928444}
+  m_LocalRotation: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.0020698337, y: 0.0020698304, z: 0.0020698316}
+  m_Children:
+  - {fileID: 827246032}
+  m_Father: {fileID: 2004042762}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &200928446
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 200928444}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4600.87, y: 1701.5109, z: 1110.0007}
+  m_Center: {x: -64.7089, y: 846.0405, z: -391.94772}
+--- !u!114 &200928447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 200928444}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff8ac8712ef225d4d8750f50490fd253, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &224017952
 GameObject:
   m_ObjectHideFlags: 0
@@ -788,8 +842,7 @@ GameObject:
   - component: {fileID: 827246032}
   - component: {fileID: 827246031}
   - component: {fileID: 827246030}
-  - component: {fileID: 827246033}
-  - component: {fileID: 827246034}
+  - component: {fileID: 827246035}
   m_Layer: 0
   m_Name: India_Gate
   m_TagString: Player
@@ -844,15 +897,15 @@ Transform:
   m_PrefabParentObject: {fileID: 400000, guid: db183fca8f511c246a9b2bd361b42b97, type: 3}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 827246029}
-  m_LocalRotation: {x: 0.50000006, y: 0.50000006, z: 0.5, w: 0.5}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.0020698325, y: 0.0020698297, z: 0.002069831}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 388503240}
-  m_Father: {fileID: 2004042762}
+  m_Father: {fileID: 200928445}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 90.00001, z: 90}
---- !u!114 &827246033
+--- !u!114 &827246035
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -860,22 +913,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 827246029}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ff8ac8712ef225d4d8750f50490fd253, type: 3}
+  m_Script: {fileID: -619905303, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MaxDubbleTapTime: 0
---- !u!65 &827246034
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 827246029}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 4600.87, y: 1701.5109, z: 1110.0007}
-  m_Center: {x: -64.7089, y: 846.0405, z: -391.94772}
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 5
 --- !u!1 &956672818 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100000, guid: bf30d577eead1ef40bcf2b404289daf4, type: 2}
@@ -1680,7 +1723,7 @@ Transform:
   m_LocalPosition: {x: 0.06, y: -0.79999924, z: 17}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 827246032}
+  - {fileID: 200928445}
   - {fileID: 189201879}
   m_Father: {fileID: 0}
   m_RootOrder: 4
