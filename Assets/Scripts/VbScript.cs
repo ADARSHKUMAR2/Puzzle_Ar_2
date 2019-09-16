@@ -6,8 +6,7 @@ using UnityEngine.EventSystems;
 
 public class VbScript : MonoBehaviour 
 {
-    private bool isdouble = false;
-    private float doubleClickTimeLimit = 0.25f;
+    
     public GameObject Object_to_rotate;
 
    

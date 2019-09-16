@@ -66,7 +66,7 @@ namespace Vuforia
             {
                 all_pieces_set++;
                 transform.position = Position_detector.transform.position;
-                Debug.Log("Placed at correct pos");
+                //Debug.Log("Placed at correct pos");
                 transform.rotation = Quaternion.Euler(child_object_parent.transform.eulerAngles.x, child_object_parent.transform.eulerAngles.y, child_object_parent.transform.eulerAngles.z);
                 transform.parent = Parent_Model.transform;
                 gameObject.GetComponent<Rotate>().enabled = false;
