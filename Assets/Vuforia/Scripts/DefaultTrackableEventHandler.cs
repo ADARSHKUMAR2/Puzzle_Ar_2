@@ -107,7 +107,7 @@ namespace Vuforia
             }
 
             Debug.Log("Trackable " + mTrackableBehaviour.TrackableName + " lost");
-            Main_object.gameObject.SetActive(false);
+            //Main_object.gameObject.SetActive(false);
 
         }
 
