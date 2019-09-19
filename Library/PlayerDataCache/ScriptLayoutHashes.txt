@@ -19,7 +19,7 @@ b75fdd29c3f372c6b79e9b343a53e3d1 Assembly-CSharp.dll:Lean.Touch.LeanFingerDown
 a9ceaad7d51aada88335b5bf9c0e71a4 Assembly-CSharp.dll:Vuforia.ReconstructionBehaviour
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Vuforia.TurnOffBehaviour
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Vuforia.GLErrorHandler
-d2057b788ac1012b9059194415f9a4ee Assembly-CSharp.dll:.VbScript
+6fe6760ff030c796b052e3a0d759c4c3 Assembly-CSharp.dll:.VbScript
 0db0b1891009e25edf89e982b317ed70 Assembly-CSharp.dll:Lean.Touch.LeanFingerLine
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Vuforia.ComponentFactoryStarterBehaviour
 43086202e38c7e5578e3e9c98ce5148c Assembly-CSharp.dll:Vuforia.PropBehaviour
@@ -175,7 +175,7 @@ bda5e49dd3fbc2f3b1799461c832505c Assembly-CSharp.dll:Lean.Touch.LeanPath
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Vuforia.VideoBackgroundBehaviour
 15bea26698002c6c4a3087131232ce5c Assembly-CSharp.dll:Vuforia.WordBehaviour
 3ad83d9b16897b0fec4f8b42b7498cdc Assembly-CSharp.dll:Vuforia.ObjectTargetBehaviour
-4da9f1175a3657523811a264a290dc0f Assembly-CSharp.dll:Vuforia.GameManager
+c54bdf3f9c2cb66178cd30d397cd0c82 Assembly-CSharp.dll:Vuforia.GameManager
 7def5fe351fb82fda3891095d17de420 Assembly-CSharp.dll:Lean.Touch.LeanScale
 bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.AudioSpatializerMicrosoft
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInput

@@ -27,4 +27,6 @@ public class Rotate : MonoBehaviour
         float rotZ = Input.GetAxis("Mouse X") * speed * Mathf.Deg2Rad;
         transform.Rotate(Vector3.down, rotZ);
     }
+
+   
 }
